@@ -9,3 +9,8 @@ By using clap, it can be run with different args for different days and inputs.
 The output is printed to stdout.
 
 E.g. To run day 1 in release mode (faster) `cargo run --release -- --day 1 input.txt`
+
+## Inputs
+
+Inputs are stored in the `inputs` folder. It is gitignored (except `README.md`), so you
+can put them there without having them staged on `git add .`
